@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import Main from '../screens/Main';
+import { Bookshelf } from '../screens/Bookshelf';
 
 const { Navigator, Screen } = createNativeStackNavigator();
 
@@ -9,7 +9,7 @@ export function AppRoutes() {
     <Navigator initialRouteName="Bookshelf">
       <Screen
         name="Bookshelf"
-        component={Main}
+        component={Bookshelf}
         options={{ headerShown: false}}
       />
     </Navigator>

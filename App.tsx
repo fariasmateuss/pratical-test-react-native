@@ -1,5 +1,5 @@
-import { Routes } from './src/routes';
+import { AppProvider } from './src/contexts';
 
 export default function App() {
-  return <Routes  />;
+  return <AppProvider  />;
 }
