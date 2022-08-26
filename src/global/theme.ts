@@ -7,6 +7,7 @@ export const theme =  {
     primary20: '#E5E5E5',
     primary10: '#f2f2f2',
     secondary100: '#FF9900',
+    secoundary200: "#673403"
   },
   fonts: {
     title900: 'Lato_900Black',
